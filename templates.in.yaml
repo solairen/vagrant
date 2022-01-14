@@ -1,0 +1,6 @@
+TEMPLATES:
+  tpl: "gusztavvargadr/windows-server-standard"
+  tpl1: "gusztavvargadr/sql-server-developer-windows-server"
+  tpl2: "gusztavvargadr/ubuntu-server"
+  tpl3: "bento/ubuntu-20.04"
+  tpl4: "generic/debian10"

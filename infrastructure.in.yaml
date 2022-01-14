@@ -1,0 +1,25 @@
+PROVISIONER: hyperv # vsphere, hyperv, virtualbox
+
+NOTE:
+  name: "Some note"
+
+FOLDER:
+  folder: "path to folder where vm should be created"
+
+### OS ###
+# debian10
+# ubuntuserver
+# ubuntu20.04
+# win2019
+# sql2019
+##########
+NODES:
+  - hostname: ""
+    os: "ubuntu"
+    # HyperV, VirtualBox, Vsphere
+    mem: 4096
+    cpus: 2
+    # Vsphere only
+    ip: "{setIP}"
+    # HyperV and Virtualbox only
+    switch: "Default Switch"
